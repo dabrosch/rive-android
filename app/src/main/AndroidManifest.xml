@@ -41,6 +41,10 @@
             android:exported="true"
             android:theme="@style/Theme.Material3.DayNight.NoActionBar" />
         <activity
+            android:name=".LazyColumnBugActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.DayNight.NoActionBar" />
+        <activity
             android:name=".SimpleActivity"
             android:exported="true" />
         <activity android:name=".EventsActivity" />

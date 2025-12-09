@@ -10,6 +10,7 @@ import app.rive.runtime.kotlin.controllers.ControllerStateManagement
 class MainActivity : AppCompatActivity() {
     private val buttonsData = listOf(
         Pair(R.id.go_compose, ComposeActivity::class.java),
+        Pair(R.id.go_lazycolumn_bug, LazyColumnBugActivity::class.java),
         Pair(R.id.go_simple, SimpleActivity::class.java),
         Pair(R.id.go_events, EventsActivity::class.java),
         Pair(R.id.go_interactive_samples, InteractiveSamplesActivity::class.java),
